@@ -1,2 +1,3 @@
 - src: https://github.com/UnderGreen/ansible-role-mongodb
 - src: https://github.com/geerlingguy/ansible-role-repo-epel.git
+- src: https://github.com/stone-payments/ansible-mongodb
