@@ -1,5 +1,5 @@
 ---
 - name: install redis 
-  hosts: redis1.rhdemo.local
+  hosts: mongodb1.rhdemo.local
   roles:
     - ansible-role-mongodb
