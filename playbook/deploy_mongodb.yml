@@ -3,11 +3,9 @@
   hosts: mongodb1.rhdemo.local
 
   tasks:
-  
+
   - name: yum-clean-metadata
-      command: yum clean metadata
-      args:
-        warn: no
+      shell: subscription-manager clean
 
   - name: add MongoDB repository
     yum_repository:
