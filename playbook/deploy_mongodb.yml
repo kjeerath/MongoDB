@@ -5,7 +5,7 @@
   tasks:
 
   - name: yum-clean-metadata
-      shell: subscription-manager clean
+    shell: subscription-manager clean
 
   - name: add MongoDB repository
     yum_repository:
