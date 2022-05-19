@@ -16,7 +16,7 @@ localadmin_password: "P@ssw0rd"
 domainadmin: "Administrator@rhdemo.local"
 domainadminpassword: "P@ssw0rd"
 domain_name: "rhdemo.local"
-rhel_image: "rhel7_image"
+rhel_image: "rhel8_image"
 
 ansible_connection: local
 # ansible_user: root
